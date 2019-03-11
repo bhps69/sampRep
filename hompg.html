@@ -1,0 +1,19 @@
+<html>
+<head>
+ <link rel="stylesheet" href="css/homestyl.css">
+ <script src="jquery-3.3.1.min.js"></script>
+ <script>
+$(document).ready(function(e) {
+    $('#header').load('header.html',function(){alert('loaded')});
+});
+</script>
+</head>
+<body>
+<div id="header">
+
+</div>
+<div id="button-div">
+<button id="btn" onclick="location.href='login.html'"><a href="#">Sign in ></a></button>
+</div>
+</body>
+</html>
